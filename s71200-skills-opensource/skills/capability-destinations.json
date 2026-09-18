@@ -1,0 +1,217 @@
+{
+  "generated_by": "cangjie-tools v2.5.0",
+  "bundle_id": "bundle.s71200-system-manual",
+  "router_entrypoint": "s71200-router",
+  "entrypoint_count": 8,
+  "capability_count": 52,
+  "destinations": {
+    "cap.s71200.power-budget-dual-rail": {
+      "promoted_to": "power-budget-dual-rail",
+      "router_view": "s71200-router/references/capabilities/power-budget-dual-rail.md"
+    },
+    "cap.s71200.analog-scaling-27648": {
+      "promoted_to": "analog-scaling-27648",
+      "router_view": "s71200-router/references/capabilities/analog-scaling-27648.md"
+    },
+    "cap.s71200.32767-ambiguity-resolution": {
+      "promoted_to": "32767-ambiguity-resolution",
+      "router_view": "s71200-router/references/capabilities/32767-ambiguity-resolution.md"
+    },
+    "cap.s71200.optimized-standard-access-pairing": {
+      "promoted_to": "optimized-standard-access-pairing",
+      "router_view": "s71200-router/references/capabilities/optimized-standard-access-pairing.md"
+    },
+    "cap.s71200.connection-budget": {
+      "promoted_to": "connection-budget",
+      "router_view": "s71200-router/references/capabilities/connection-budget.md"
+    },
+    "cap.s71200.emergency-ip-recovery": {
+      "promoted_to": "emergency-ip-recovery",
+      "router_view": "s71200-router/references/capabilities/emergency-ip-recovery.md"
+    },
+    "cap.s71200.run-mode-download-side-effects": {
+      "promoted_to": "run-mode-download-side-effects",
+      "router_view": "s71200-router/references/capabilities/run-mode-download-side-effects.md"
+    },
+    "cap.s71200.power-budget-negative-asymmetric": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/power-budget-negative-asymmetric.md"
+    },
+    "cap.s71200.power-budget-precheck": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/power-budget-precheck.md"
+    },
+    "cap.s71200.power-budget-dual-column-procedure": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/power-budget-dual-column-procedure.md"
+    },
+    "cap.s71200.max-modules-limits": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/max-modules-limits.md"
+    },
+    "cap.s71200.24v-parallel-ban": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/24v-parallel-ban.md"
+    },
+    "cap.s71200.24v-consumption-quotas": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/24v-consumption-quotas.md"
+    },
+    "cap.s71200.power-budget-worksheet": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/power-budget-worksheet.md"
+    },
+    "cap.s71200.out-of-5v-budget-consequence": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/out-of-5v-budget-consequence.md"
+    },
+    "cap.s71200.ainfo-26-33-break-vs-overflow": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/ainfo-26-33-break-vs-overflow.md"
+    },
+    "cap.s71200.sm1231-power-on-32767-avoidance": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/sm1231-power-on-32767-avoidance.md"
+    },
+    "cap.s71200.dis-airt-en-airt-guard": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/dis-airt-en-airt-guard.md"
+    },
+    "cap.s71200.port-protocol-default-state": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/port-protocol-default-state.md"
+    },
+    "cap.s71200.cpu-swap-password-sdcard-disposal": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/cpu-swap-password-sdcard-disposal.md"
+    },
+    "cap.s71200.v3-v4-migration": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/v3-v4-migration.md"
+    },
+    "cap.s71200.password-loss-blank-card-erase": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/password-loss-blank-card-erase.md"
+    },
+    "cap.s71200.protection-level-loss-on-restore-interrupt": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/protection-level-loss-on-restore-interrupt.md"
+    },
+    "cap.s71200.no-secure-erase": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/no-secure-erase.md"
+    },
+    "cap.s71200.factory-reset-10-consequences": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/factory-reset-10-consequences.md"
+    },
+    "cap.s71200.sd-card-batch-and-force-points": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/sd-card-batch-and-force-points.md"
+    },
+    "cap.s71200.iolink-factory-reset-consequences": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/iolink-factory-reset-consequences.md"
+    },
+    "cap.s71200.mb-client-frozen-inputs": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/mb-client-frozen-inputs.md"
+    },
+    "cap.s71200.mb-server-default-open-ports": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/mb-server-default-open-ports.md"
+    },
+    "cap.s71200.hsc-chaos-input-conflict": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/hsc-chaos-input-conflict.md"
+    },
+    "cap.s71200.ctrl-hsc-ext-en-new-pairing": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/ctrl-hsc-ext-en-new-pairing.md"
+    },
+    "cap.s71200.datalog-capacity-budget": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/datalog-capacity-budget.md"
+    },
+    "cap.s71200.datalog-lifecycle-full-file": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/datalog-lifecycle-full-file.md"
+    },
+    "cap.s71200.datalog-2kb-write-amplification": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/datalog-2kb-write-amplification.md"
+    },
+    "cap.s71200.get-error-reverse-semantics": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/get-error-reverse-semantics.md"
+    },
+    "cap.s71200.dactdp-partial-failure-masked": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/dactdp-partial-failure-masked.md"
+    },
+    "cap.s71200.config-control-absent-module-silent": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/config-control-absent-module-silent.md"
+    },
+    "cap.s71200.awp-space-silent-failure": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/awp-space-silent-failure.md"
+    },
+    "cap.s71200.certificate-unsupported-params-silent": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/certificate-unsupported-params-silent.md"
+    },
+    "cap.s71200.pwmpto-silent-write-drop": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/pwmpto-silent-write-drop.md"
+    },
+    "cap.s71200.io2mod-fragment-laddr": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/io2mod-fragment-laddr.md"
+    },
+    "cap.s71200.getiopart-setiopart-silent-truncation": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/getiopart-setiopart-silent-truncation.md"
+    },
+    "cap.s71200.scan-cycle-stop-ladder": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/scan-cycle-stop-ladder.md"
+    },
+    "cap.s71200.diag-buffer-interpretation": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/diag-buffer-interpretation.md"
+    },
+    "cap.s71200.full-protection-overrides-web-users": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/full-protection-overrides-web-users.md"
+    },
+    "cap.s71200.cpu-1217c-spec-boundary": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/cpu-1217c-spec-boundary.md"
+    },
+    "cap.s71200.expansion-cable-one-only": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/expansion-cable-one-only.md"
+    },
+    "cap.s71200.rtd-range-and-32767": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/rtd-range-and-32767.md"
+    },
+    "cap.s71200.thermocouple-burnout-test-timing": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/thermocouple-burnout-test-timing.md"
+    },
+    "cap.s71200.first-ip-assignment": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/first-ip-assignment.md"
+    },
+    "cap.s71200.mb-client-timeout-variables": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/mb-client-timeout-variables.md"
+    },
+    "cap.s71200.ctrl-hsc-ext-version-criterion": {
+      "served_by": "s71200-router",
+      "card": "s71200-router/references/capabilities/ctrl-hsc-ext-version-criterion.md"
+    }
+  }
+}
